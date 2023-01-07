@@ -91,3 +91,64 @@ header .container{
     color: #737272;
     font: size 20px;
 }
+
+
+/* footer styles */
+footer{
+   padding:100px 0;
+    background: #151414;
+    color: white;
+    
+}
+.footer-container{
+   display: flex;
+    justify-content: space-between;
+
+}
+.footer-info{
+  width: 40%;
+}
+.footer-description{
+    margin-top: 20px;
+}
+.footer-description p{
+    line-height: 25px;
+
+}
+.footer-description .email{
+   margin-top: 24px;
+   margin-bottom: 26px;
+}
+.footer-description .links{
+    margin-top: 30px;
+}
+.footer-description img{
+    margin-right: 20px;
+    width: 50px;
+    cursor: pointer;
+}
+.footer-form form{
+    display: flex;
+    flex-direction: column;
+}
+.footer-form-title{
+    font-size: 25px;
+}
+
+.footer-form form input[type="email"]{
+    /* height: 64px; */
+    background: transparent;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    border: 1px solid white;
+    border-radius: 8px;
+    outline: none;
+}
+.footer-form form input[type="submit"]{
+    background: #005FAC;
+    border-radius: 8px;
+    color: white;
+}
